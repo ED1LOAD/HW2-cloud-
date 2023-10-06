@@ -1,0 +1,282 @@
+@font-face {
+    font-family: Helvetica  ;
+    src: url(C:\Users\Эдиль\Documents\EDIL\Шрифты\helvetica_light);
+}
+h1{
+    font-family: Helvetica ;
+}
+h2{
+    font-family: Helvetica ;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(C:\Users\Эдиль\Documents\EDIL\Шрифты\Roboto-light);
+}
+p{
+    font-family: Roboto;
+}
+header{
+    padding-top: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.head{
+    display: flex;
+}
+.logo{
+    width: 70px;
+    height: 74px;
+}
+.indentation{
+    flex-grow: 4;
+}
+.menu1{
+    flex-grow: 1;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 18px;
+}
+.number{
+    font-size: 18px;
+}
+
+
+main{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.hero{
+    padding-top: 40px;
+}
+.hero-flex{
+    display: flex;
+    flex-direction: column;
+}
+.hero1-flex{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+}
+.hero1-flex h1{
+    font-size: 72px;
+}
+.hero1-flex p{
+    text-decoration: underline;
+    align-self: flex-end;
+    flex: 1 1 0;
+    text-align: end;
+}
+.hero2-flex{
+    display: flex;
+}
+.hero2-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 0;
+}
+.hero2-image p{
+    font-size: 20px;
+}
+.hero2-image img{
+    width: 50%;
+}
+
+.about{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1376px;
+    height: 589px;
+}
+.about2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: space-around;
+    width: 679px;
+    height: 589px;
+}
+.about1 h2 {
+    font-size: 48px;
+    width: 562px;
+}
+.about-p {
+    font-size: 16px;
+    width: 446px;
+    gap: 16px;
+}
+.about-h1{
+    gap: 24px;
+}
+.marg-p{
+    margin: 0;
+    width: 146px;
+}
+.marg-h1{
+    margin-bottom: 0;
+    font-size: 36px;   
+}
+
+
+.steps{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1376px;
+    height: 980px;
+}
+.pre-step{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: space-around;
+}
+.steps2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: space-around;
+    width: 679px;
+    height: 589px;
+}
+.steps1 h2 {
+    font-size: 48px;
+    width: 562px;
+}
+
+
+.projects{
+    font-size: 48px;
+    padding-top: 120px;
+}
+.project-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.p-image{
+    margin-bottom: 20px;
+}
+
+
+
+.testimonials{
+    font-size: 48px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+.t-tags{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.t-text{
+    width: 365px;
+    height: 110px;
+}
+.t-tag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    width: 445px;
+    height: 327px;
+    border: 1px solid black;
+}
+.bold-text{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.form{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1376px;
+    height: 566px;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align: start;
+    justify-content:flex-start;
+    width: 679px;
+    height: 589px;
+}
+.form-head{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: flex-start;
+    width: 679px;
+}
+.form2 h2 {
+    font-size: 48px;
+    margin-top: 0;
+}
+.form-head p {
+    font-size: 16px;
+    width: 297px;
+    margin-top: 0;
+}
+.form-ans{
+    margin-top: 72px;
+}
+.step-line{
+    width: 562px;
+}
+.black-button {
+    margin-top: 24px;
+    width: 176px;
+    height: 46px;
+    background-color: #000; 
+    color: #fff; 
+    border: none; 
+    font-size: 16px; 
+
+}
+.apps-button{
+    margin-top: 40px;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 120px;
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+}
+.foot2{
+    flex-grow: 1;
+    text-align: center;
+    align-self: center;
+}
+.foot3{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+    gap: 40px;
+}
