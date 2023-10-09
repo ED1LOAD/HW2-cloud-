@@ -1,6 +1,6 @@
 @font-face {
     font-family: Helvetica  ;
-    src: url(C:\Users\Эдиль\Documents\EDIL\Шрифты\helvetica_light);
+    src: url(assets/helvetica_light.otf);
 }
 h1{
     font-family: Helvetica ;
@@ -10,7 +10,7 @@ h2{
 }
 @font-face {
     font-family: Roboto;
-    src: url(C:\Users\Эдиль\Documents\EDIL\Шрифты\Roboto-light);
+    src: url(assets/Roboto-Light.ttf);
 }
 p{
     font-family: Roboto;
